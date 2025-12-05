@@ -118,4 +118,21 @@
   body {
     @apply bg-background text-foreground;
   }
+  h3{
+    @apply font-semibold p-3 border-b border-gray-300;
+  }
+
+  
+}
+
+@layer utilities{
+  .icon{
+    @apply p-2 rounded-full bg-orange-200;
+  }
+  .card-bg{
+    @apply border-gray-300 border rounded-2xl bg-white;
+  }
+  .card-heading{
+    @apply font-bold text-[24px] pt-3 pl-2;
+  }
 }
